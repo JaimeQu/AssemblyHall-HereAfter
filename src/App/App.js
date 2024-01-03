@@ -1,11 +1,13 @@
 import './App.css';
-import AH_Header from './AHheader/AH_Header';
+import AH_Header from '../AH_components/AHheader/AH_Header';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
-      <Header />
+      <AH_Header />
     </Router>
   );
 }
+
+export default App;

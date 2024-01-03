@@ -13,7 +13,12 @@ const Header = () => {
         </div>
         <div className = "ah-nav">
           <NavLink to="/">Home </NavLink>
-          <NavLink to="/explore">About</NavLink>
+          <NavLink to="/about">About Us</NavLink>
+          <NavLink to="/menu">Menu</NavLink>
+          <NavLink to="/contact">Contact Us</NavLink>
+
+
+
           <button className = "button-header">Logout</button>
         </div>
       </div>
